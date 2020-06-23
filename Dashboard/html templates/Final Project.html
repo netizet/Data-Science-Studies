@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            h1 {
+                color: white;
+                }
+            body, html {
+                height: 100%;
+                margin: 0;
+                color: white;
+            }
+        
+            .bg {
+            /* The image used */
+            background-image: url("https://res.cloudinary.com/netizet/image/upload/v1592543567/background_dashboard.001_dgw2pw.jpg");
+        
+            /* Full height */
+            height: 100%; 
+        
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            }
+            
+            .centerhead {text-align: center;  padding: 270px 0;}
+            .center {text-align: center; padding: -500px 0;}
+
+            .sansserif {
+                font-family: Arial, Helvetica, sans-serif;
+                }
+            .b {font-size: medium;}
+            
+            * {
+                box-sizing: border-box;
+                }
+
+            .column {
+                float: left;
+                width: 16.66%;
+                padding: 5px;
+                }
+            .columntext {
+            float: left;
+            width: 50%;
+            padding: 5px;
+                }
+
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+                }
+
+        </style>
+        <h1>
+
+        </h1>
+        </head>
+         
+<body style="background-color: black;">
+    <div class="bg">
+        <div class="centerhead">
+            <div class = "b">
+            <h1 class="sansserif">
+                Dashboard Final Project<br>Building Music Recommendation Using Audio Features From Spotify Dataset
+            </h1>
+            <p class="sansserif">by: Muhammad Ramzy</p>
+            </div>
+        </div>
+    </div>
+    <div class="center">
+        <h2 class="sansserif">
+            <br>
+            About
+        </h2>
+        <p class="sansserif">This is a project as requested by Purwadhika Digital Technology School as a requirement to finish their data science course.<br>The music recommendation system was made with data clustering, Pearson's correlation coefficient, and a little content filtering that provided by Spotify.</p>
+    </div>
+    <br>
+    <div class="center">
+        <h2 class="sansserif">
+            The Playlist
+        </h2>
+    </div>
+    <div class="row">   
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/2evgGdaDagUHvDqhNNG7pM?si=u4DeDreRQcKsW_phBMTu_Q" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123136_378_su6nrl.jpg" alt="1" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/0vcZPqe7JOKqWOkRi62vid?si=9oSkdl6rSaGcaWb01MD1pQ" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123140_335_vuuaov.jpg" alt="2" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/2yoeICv7TkSqnh220UMwIE?si=o0em-HGITZ6wdeoO15i49A" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123144_432_aylw6e.jpg" alt="3" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/6Buvk2gEbhZ4lJwlIQGUhE?si=m-ThP9wmSNG_259TDU1ECQ" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123148_405_n1i8qr.jpg" alt="4" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/2HmaeG1YCp4fzvextlLepg?si=JqcVV8CNSyKLJ7mhbpjGWA" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123152_546_cuuguf.jpg" alt="5" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+            <a href="https://open.spotify.com/playlist/4pdGZJ8j5GIcAkfkrtkm5H?si=MMfUauM9SxeV5edFyzt-zw" target="_blank">
+                <img src="https://res.cloudinary.com/netizet/image/upload/v1592544824/IMG_20200619_123156_595_r5xfic.jpg" alt="6" style="width:100%">
+            </a>
+        </div>
+      </div>
+    <div class="center">
+        <h2 class="sansserif">
+            Audio Features Comparison
+        </h2>
+    </div>
+    <br>
+    <div class="row">
+        <div class="center">
+            <h3 class="sansserif">
+                Danceability
+            </h3>
+        </div>   
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539107/danceability_vs_hqttfd.png" alt="Danceability 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539333/new_danceability_vs_mcprcf.png" alt="Danceability 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Energy
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539002/energy_vs_ozudp1.png" alt="Energy 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539333/new_energy_vs_a0maif.png" alt="Energy 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Valence
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539288/valence_vs_mzyvcr.png" alt="Valence 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539334/new_valence_vs_sodcmh.png" alt="Valence 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Accousticness
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539001/acousticness_vs_jgcuyj.png" alt="Accousticness 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539333/new_acousticness_vs_sc52sz.png" alt="Acc 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Liveness
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539138/liveness_vs_azs0gp.png" alt="live 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539334/new_liveness_vs_sfs0y9.png" alt="live 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Speechiness
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539287/speechiness_vs_viarwl.png" alt="speech 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539334/new_speechiness_vs_lb60sr.png" alt="speech 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+        <div class="center">
+            <h3 class="sansserif">
+                Instrumentalness
+            </h3>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539074/instrumentalness_vs_kkojfb.png" alt="instrumental 1" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">User's Library</h4>
+            </div>
+        </div>
+        <div class="columntext">
+            <img src="https://res.cloudinary.com/netizet/image/upload/v1592539333/new_instrumentalness_vs_lrwey3.png" alt="instrumental 2" style="width:100%">
+            <div class="center">
+                <h4 class="sansserif">Recommended Playlist</h4>
+            </div>
+        </div>
+    </div>
+</body>   
+</html>
